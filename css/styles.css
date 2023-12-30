@@ -145,6 +145,7 @@ background-color: #FFFFFF;
     letter-spacing: 0.02em;
 }
 .portfolio { 
+    background-color: #FFFFFF;
     font-weight: 500;
     font-size: 20px
     line-height: 1.2;
@@ -160,8 +161,7 @@ background-color: #FFFFFF;
 
 }
 .portfolio-list {
-    background-color: #FFFFFF;
-    
+  
 }
 .portfolio-item {
 }
@@ -182,7 +182,6 @@ background-color: #FFFFFF;
     color: #434455;  
 }
 .footer {
-    flex-shrink: 0;
     background: var(--NAVY-BLUE, #2E2F42);
 }
 .footer-logo {
