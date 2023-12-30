@@ -69,7 +69,9 @@ letter-spacing: 0.02em;
 .header-contact-link:hover{ 
     color: #404BBF;
 }
-
+.header-contact-link:focus{ 
+    color: #404BBF;
+}
  .hero-title-text{
     color: var(--WHITE, #FFF);
     text-align: center;
@@ -92,7 +94,7 @@ font-family: Roboto, sans-serif;
 }
 .hero-ord-dtn:hover{background-color: #404BBF;}
 .hero-ord-dtn:focus{background-color: #404BBF;}
-.features {
+.features { background-color: #FFFFFF;
 }
 .features-list {
 }
@@ -163,9 +165,7 @@ background-color: #FFFFFF;
 .portfolio-item {
 }
 .portfolio-img {
-    width: 360px;
-    height: 300px;
-    flex-shrink: 0;
+ 
 }
 .portfolio-subtitle {
     color: var(--NAVY-BLUE, #2E2F42);
