@@ -55,6 +55,9 @@ color: #FFFFFF;
 .header-menu-link:hover{
     color: #404BBF;
 }
+.header-menu-link:focus{
+    color: #404BBF;
+}
 .header-menu-link:active {color: #9747FF;}
 .header-contact{font-style: normal;}
 .header-contact-link{
@@ -154,7 +157,7 @@ background-color: #FFFFFF;
     text-transform: capitalize;
 
 }
-.portfolio-list {
+.portfolio-list {background-color: #FFFFFF;
     
 }
 .portfolio-item {
@@ -185,7 +188,7 @@ background-color: #FFFFFF;
 }
 .footer-logo {
     font-family: Raleway,sans-serif;
-    font-weight: 700
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
