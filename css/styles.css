@@ -25,7 +25,7 @@ ul{
   /**------------header-------------*/
   .header-logo{
     font-family: Raleway,sans-serif;
-    font-weight: 700
+    font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
 }
@@ -54,6 +54,8 @@ font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
+text-align: center;
+color: #FFFFFF;
 }
 .header-menu-link:hover{
     color: #404BBF;
@@ -120,7 +122,8 @@ font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.team-list {background-color: #FFFFFF;
+.team-list {
+background-color: #FFFFFF;
 }
 .team-item {
 }
@@ -141,10 +144,10 @@ font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
 }
 .portfolio { 
-    font-weight: 500
+    font-weight: 500;
     font-size: 20px
-    line-height: 1.2
-    letter-spacing: 0.02em
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .portfolio-title {color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
@@ -174,8 +177,8 @@ font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
 }
 .portfolio-item-text{  
-    line-height: 1.5
-    letter-spacing: 0.02em
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;  
 }
 .footer {
@@ -187,10 +190,10 @@ font-family: Roboto, sans-serif;
 .footer-logo {
     font-family: Raleway,sans-serif;
     font-weight: 700
-    font-size: 18px
-    line-height: 1.17
-    letter-spacing: 0.03em
-    text-transform: uppercase
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #4D5AE5;
 }
 .footer-logo-color {
@@ -206,5 +209,5 @@ font-family: Roboto, sans-serif;
     font-size: 16px;
     line-height: 1.50; 
     letter-spacing: 0.02em;
-    width: 264px
+    width: 264px;
 }
