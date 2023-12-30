@@ -96,7 +96,7 @@ font-family: Roboto, sans-serif;
 .hero-ord-dtn:focus{background-color: #404BBF;}
 .features { background-color: #FFFFFF;
 }
-.features-list {
+.features-list { background-color: #FFFFFF;
 }
 .feature-item {
 }
@@ -159,7 +159,8 @@ background-color: #FFFFFF;
     text-transform: capitalize;
 
 }
-.portfolio-list {background-color: #FFFFFF;
+.portfolio-list {
+    background-color: #FFFFFF;
     
 }
 .portfolio-item {
@@ -181,8 +182,6 @@ background-color: #FFFFFF;
     color: #434455;  
 }
 .footer {
-    width: 1440px;
-    height: 312px;
     flex-shrink: 0;
     background: var(--NAVY-BLUE, #2E2F42);
 }
@@ -206,5 +205,5 @@ background-color: #FFFFFF;
     font-size: 16px;
     line-height: 1.50; 
     letter-spacing: 0.02em;
-    width: 264px;
+  
 }
