@@ -27,20 +27,15 @@ ul{
     font-family: Raleway,sans-serif;
     font-weight: 700;
     font-size: 18px;
-    text-transform: uppercase;
-}
-.header-logo-color{
-    color: var(--IRIS, #4D5AE5);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    -webkit-text-stroke: 1px #000000;
     line-height: 1.17;
     letter-spacing: 0.03em;
-  
-    }
+    text-transform: uppercase;
+    color: var(--IRIS, #4D5AE5);
+}
+
 .header-logo-color-black{
     color: var(--NAVY-BLUE, #2E2F42);
-    line-height: 1.17;
-    letter-spacing: 0.03em;}
+}
        
 .header-menu-link{
 color: var(--NAVY-BLUE, #2E2F42);
@@ -61,6 +56,7 @@ color: #FFFFFF;
     color: #404BBF;
 }
 .header-menu-link:active {color: #9747FF;}
+.header-contact{font-style: normal;}
 .header-contact-link{
 color: var(--SLATE, #434455);
 font-size: 16px;
@@ -196,9 +192,7 @@ background-color: #FFFFFF;
     text-transform: uppercase;
     color: #4D5AE5;
 }
-.footer-logo-color {
-    color: var(--IRIS, #4D5AE5);
-}
+
 .footer-logo-color-black {
     color: var(--CLOUD, #F4F4FD);
     
