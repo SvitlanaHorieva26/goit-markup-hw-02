@@ -82,6 +82,7 @@ letter-spacing: 0.02em;
 
 .hero-ord-dtn {
     color: var(--WHITE, #FFF);
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.50; 
